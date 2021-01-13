@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Pepito', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hi, I am',
+  name: 'Marc Gotzens',
+  subtitle: 'Web developer',
   cta: '',
 };
 
@@ -29,6 +29,15 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
+    title: 'Pay at the table',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Hotel Costabella',
     title: '',
     info: '',
     info2: '',
@@ -37,16 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
+    img: 'Countries',
     title: '',
     info: '',
     info2: '',
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'cta??',
+  btn: 'btnn?',
+  email: 'marcgotzens@hotmail.com',
 };
 
 // FOOTER DATA
