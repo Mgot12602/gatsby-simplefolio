@@ -21,9 +21,9 @@ export const aboutData = {
   paragraphOne:
     'I live in Spain and always have been passionate for technology. After I finished my bachelor degree in Telecomunications engineering I became really interested in programming. This year I was admited for the Ironhack Bootcamp where I could specialize as a Web Developer and master the whole MERN stack ',
   paragraphTwo:
-    'As a front-end I really like working in React and Gatsby which allows well structured and dynamic single-page applications that loads very fast.',
+    'As a front-end I really like working in React and Gatsby which allows well structured and dynamic single-page applications that loads very fast. Recently I started building projects with React Native.',
   paragraphThree:
-    'As a back-end I recently developed projects with non-relational databases as MongoDB and I am amazed of the flexibility that allows.I am excited to develop my next projects using ReactNatvie, NextJS and Redux',
+    'As a back-end I recently developed projects with non-relational databases as MongoDB and I am amazed of the flexibility that allows. I am excited to develop my next projects using NextJS and Redux',
   resume: 'https://drive.google.com/file/d/1LYxBYt-5qylM2oCFwGMUGunQ6Y_6TP-T/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -35,7 +35,7 @@ export const projectsData = [
     title: 'Pay at the table',
     info:
       'Designed a solution for restaurants providing responsive,menu editing, ordering and payment gateway through stripe. Built two different repositories where client is deployed in netlify and server in heroku',
-    info2: 'React, ExpressJS, MongoDB and Bcrypt, SaaS, Bulma.io.',
+    info2: 'React, ExpressJS, MongoDB, Bcrypt, SaaS, Bulma.io.',
     url: 'https://pay-at-the-table.netlify.app',
     repo: 'https://github.com/Mgot12602/payatthetableclient', // if no repo, the button will not show up
   },
