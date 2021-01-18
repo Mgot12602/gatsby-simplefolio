@@ -3,8 +3,8 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Marc Gotzens', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Marc Gotzens Portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -61,12 +61,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/TechNew58575550',
-    },
-
     {
       id: nanoid(),
       name: 'linkedin',
