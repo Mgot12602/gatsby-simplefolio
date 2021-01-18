@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Pepito', // e.g: 'Name | Developer'
+  title: 'Marc Gotzens', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -17,48 +17,44 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'quadrada.jpg',
+  paragraphOne:
+    'I live in Spain and always have been passionate for technology. After I finished my bachelor degree in Telecomunications engineering I became really interested in programming. This year I was admited for the Ironhack Bootcamp where I could specialize as a Web Developer and master the whole MERN stack ',
+  paragraphTwo:
+    'As a front-end I really like working in React and Gatsby which allows well structured and dynamic single-page applications that loads very fast.',
+  paragraphThree:
+    'As a back-end I recently developed projects with non-relational databases as MongoDB and I am amazed of the flexibility that allows.I am excited to develop my next projects using ReactNatvie, NextJS and Redux',
+  resume: 'https://drive.google.com/file/d/1LYxBYt-5qylM2oCFwGMUGunQ6Y_6TP-T/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'payatthetable.jpg',
     title: 'Pay at the table',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info:
+      'Designed a solution for restaurants providing responsive,menu editing, ordering and payment gateway through stripe. Built two different repositories where client is deployed in netlify and server in heroku',
+    info2: 'React, ExpressJS, MongoDB and Bcrypt, SaaS, Bulma.io.',
+    url: 'https://pay-at-the-table.netlify.app',
+    repo: 'https://github.com/Mgot12602/payatthetableclient', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'Hotel Costabella',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Countries',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'hotelcostabella.jpg',
+    title: 'Hotel Costabella',
+    info:
+      'Multi-language Wordpress website using a template several pluggins, integrated with the booking engine',
+    info2: 'Wordpress, Html, Css',
+    url: 'https://hotelcostabella.com',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'cta??',
-  btn: 'btnn?',
+  cta: 'marcgotzens@hotmail.com',
+  btn: 'Send me an email',
   email: 'marcgotzens@hotmail.com',
 };
 
@@ -68,22 +64,18 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/TechNew58575550',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/marc-gotzens/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Mgot12602',
     },
   ],
 };
