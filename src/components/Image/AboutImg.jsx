@@ -25,7 +25,7 @@ const AboutImg = ({ filename, alt }) => (
     render={(data) => {
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
-      if (!image) return null;
+      if (!image || !image.node.childImageSharp) return null;
 
       const imageFixed = image.node.childImageSharp.fixed;
       return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
